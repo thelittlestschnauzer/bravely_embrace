@@ -1,8 +1,13 @@
 .navbar-custom {
   background-color: #FFF;
   color: #575757;
-  border-bottom: 1px solid #324851;
 }
+
+.effect1 {
+  -webkit-box-shadow: 0 5px 6px -6px #777;
+     -moz-box-shadow: 0 5px 6px -6px #777;
+          box-shadow: 0 5px 6px -6px #777;
+        }
 
 .nav-link, .navbar-brand, .nav-item{
   color: #575757;
