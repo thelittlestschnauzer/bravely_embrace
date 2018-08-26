@@ -1,0 +1,14 @@
+@media (min-width: 600px)
+  .navbar.scrolling-navbar {
+    transition: background .5s
+                ease-in-out: padding .5s
+                ease-in-out;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+@media (min-width: 992px)
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
